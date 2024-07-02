@@ -1,0 +1,48 @@
+{
+  "name": "@greenton/react-sdk",
+  "version": "1.0.0",
+  "description": "Official GreenTON JS SDK",
+  "main": "src/index.ts",
+  "scripts": {
+    "build": "babel src -d dist",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "react",
+    "sdk",
+    "greenton"
+  ],
+  "license": "MIT",
+  "peerDependencies": {
+    "@orbs-network/ton-access": "^2.3.3",
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "@ton/core": "^0.56.3",
+    "@ton/ton": "^13.11.2",
+    "@tonconnect/ui-react": "^2.0.5",
+    "@types/jest": "^27.5.2",
+    "@types/node": "^16.18.101",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-scripts": "5.0.1",
+    "typescript": "^4.9.5",
+    "web-vitals": "^2.1.4"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.24.7",
+    "@babel/preset-env": "^7.24.7",
+    "@babel/preset-react": "^7.24.7",
+    "@trivago/prettier-plugin-sort-imports": "^4.3.0",
+    "prettier": "^3.3.2",
+    "prettier-plugin-organize-imports": "^4.0.0"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  }
+}

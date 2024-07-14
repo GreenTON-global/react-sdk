@@ -3,6 +3,11 @@
   "version": "0.0.1",
   "description": "Official GreenTON React SDK",
   "main": "src/index.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GreenTON-global/sdk-react.git"
+  },
+  "author": "GreenTON Global",
   "scripts": {
     "build": "babel src -d dist",
     "test": "jest --passWithNoTests",
@@ -14,7 +19,7 @@
     "greenton"
   ],
   "license": "MIT",
-  "peerDependencies": {
+  "dependencies": {
     "@orbs-network/ton-access": "^2.3.3",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
@@ -45,5 +50,9 @@
       "react-app",
       "react-app/jest"
     ]
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/GreenTON-global/sdk-react/issues"
+  },
+  "homepage": "https://github.com/GreenTON-global/sdk-react#readme"
 }

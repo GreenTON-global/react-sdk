@@ -5,6 +5,7 @@
   "main": "src/index.ts",
   "scripts": {
     "build": "babel src -d dist",
+    "test": "jest --passWithNoTests",
     "prepublishOnly": "npm run build"
   },
   "keywords": [

@@ -10,8 +10,5 @@ export interface Tree {
   location: string;
   price: number;
   collectionAddress: string;
-}
-
-export interface TreeWithOrganization extends Tree {
   organization: Organization;
 }

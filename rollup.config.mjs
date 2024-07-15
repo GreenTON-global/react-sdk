@@ -1,13 +1,16 @@
+import typescript from '@rollup/plugin-typescript';
+
 const devMode = process.env.NODE_ENV === 'development';
 console.log(`${devMode ? 'development' : 'production'} mode bundle`);
 
 export default [
   {
-    input: 'src/index.js',
+    input: 'src/index.ts',
     output: {
-      file: 'dist/index.js',
+      dir: 'dist',
       format: 'es',
       sourcemap: devMode ? 'inline' : false,
     },
+    plugins: [typescript()],
   },
 ];

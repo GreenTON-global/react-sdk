@@ -4,6 +4,7 @@
   "description": "Official GreenTON React SDK",
   "type": "module",
   "main": "dist/index.js",
+  "module": "dist/index.js",
   "scripts": {
     "build:dev": "rollup -c --environment NODE_ENV:development",
     "build": "rollup -c --environment NODE_ENV:production"

@@ -1,3 +1,12 @@
+## [1.1.2](https://github.com/GreenTON-global/sdk-react/compare/v1.1.1...v1.1.2) (2024-07-15)
+
+
+### Bug Fixes
+
+* Fix publish.yml file ([22b1b92](https://github.com/GreenTON-global/sdk-react/commit/22b1b92694bf7b164471e7eee0e2eec47145015d))
+
+
+
 ## [1.1.1](https://github.com/GreenTON-global/sdk-react/compare/v1.1.0...v1.1.1) (2024-07-15)
 
 

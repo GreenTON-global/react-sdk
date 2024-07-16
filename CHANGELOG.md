@@ -1,3 +1,12 @@
+## [1.1.5](https://github.com/GreenTON-global/sdk-react/compare/v1.1.4...v1.1.5) (2024-07-16)
+
+
+### Bug Fixes
+
+* Add build to publish.yml ([254081b](https://github.com/GreenTON-global/sdk-react/commit/254081b4bd2bbf491410b247fbbb5435dff71a45))
+
+
+
 ## [1.1.4](https://github.com/GreenTON-global/sdk-react/compare/v1.1.3...v1.1.4) (2024-07-16)
 
 
@@ -32,15 +41,6 @@
 ### Bug Fixes
 
 * Fix publish.yml file with organization scope specification ([bdaa962](https://github.com/GreenTON-global/sdk-react/commit/bdaa962b424765b1ac8280fac3bdb74d6c16572e))
-
-
-
-# [1.1.0](https://github.com/GreenTON-global/sdk-react/compare/50d2a3aeff52ae102ac1ec04895d5c481064cf12...v1.1.0) (2024-07-15)
-
-
-### Features
-
-* Add basic readme file ([50d2a3a](https://github.com/GreenTON-global/sdk-react/commit/50d2a3aeff52ae102ac1ec04895d5c481064cf12))
 
 
 

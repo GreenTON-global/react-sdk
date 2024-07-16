@@ -1,3 +1,4 @@
+import nodeResolve from '@rollup/plugin-node-resolve';
 import typescript from '@rollup/plugin-typescript';
 
 const devMode = process.env.NODE_ENV === 'development';
@@ -12,5 +13,15 @@ export default [
       sourcemap: devMode ? 'inline' : false,
     },
     plugins: [typescript()],
+  },
+  {
+    input: 'src/contracts/NftCollection.ts',
+    external: [/node_modules/],
+    output: {
+      dir: 'dist',
+      format: 'es',
+      sourcemap: devMode ? 'inline' : false,
+    },
+    plugins: [typescript(), nodeResolve()],
   },
 ];

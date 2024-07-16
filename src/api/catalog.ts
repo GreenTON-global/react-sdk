@@ -1,5 +1,5 @@
-import { API_URL } from '../constants/api-url';
-import { Tree } from '../types/api/Tree';
+import { API_URL } from '@/constants/api-url';
+import { Tree } from '@/types/api/Tree';
 
 async function getAll(): Promise<Tree[]> {
   return await fetch(`${API_URL}/catalog`)

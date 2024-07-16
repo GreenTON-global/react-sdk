@@ -1,3 +1,3 @@
-import { greentonApi } from './api';
+import { greentonApi } from '@/api';
 
 export { greentonApi };

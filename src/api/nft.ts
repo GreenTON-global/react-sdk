@@ -1,5 +1,5 @@
-import { API_URL } from '../constants/api-url';
-import { NFT } from '../types/api/NFT';
+import { API_URL } from '@/constants/api-url';
+import { NFT } from '@/types/api/NFT';
 
 async function getByOwner(address: string): Promise<NFT[]> {
   return await fetch(`${API_URL}/nfts/by-wallet/${address}`, {

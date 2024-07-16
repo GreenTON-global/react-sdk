@@ -1,3 +1,12 @@
+## [1.1.3](https://github.com/GreenTON-global/sdk-react/compare/v1.1.2...v1.1.3) (2024-07-15)
+
+
+### Bug Fixes
+
+* Add module export for package.json ([bb378e4](https://github.com/GreenTON-global/sdk-react/commit/bb378e4d47bc70be224bb5bec19430d7c85c0926))
+
+
+
 ## [1.1.2](https://github.com/GreenTON-global/sdk-react/compare/v1.1.1...v1.1.2) (2024-07-15)
 
 

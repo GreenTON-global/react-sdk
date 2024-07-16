@@ -4,7 +4,7 @@
   "description": "Official GreenTON React SDK",
   "type": "module",
   "exports": {
-    ".": "./dist/*.js"
+    ".": "./dist"
   },
   "scripts": {
     "build:dev": "rollup -c --environment NODE_ENV:development",

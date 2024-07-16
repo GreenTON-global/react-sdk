@@ -1,4 +1,6 @@
 src
-rollup.config.js
 .prettierrc
 .github
+tsconfig.json
+rollup.config.mjs
+CHANGELOG.md
